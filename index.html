@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trung Tâm Đào Tạo Lái Xe</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+
+    .top-bar {
+      background: #d9534f; color: white; padding: 10px 30px;
+      display: flex; justify-content: space-between; font-size: 14px;
+    }
+
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      background: white; padding: 15px 30px; border-bottom: 1px solid #ddd;
+    }
+
+    .logo-section { text-align: center; }
+    .logo-section img { max-height: 60px; }
+    .slogan { font-size: 12px; color: #666; }
+
+    .company-name h1 { font-size: 20px; color: #d9534f; margin-bottom: 5px; }
+    .company-name h2 { font-size: 16px; color: #333; }
+
+    nav {
+      background: #f0b400;
+    }
+    nav ul {
+      list-style: none; display: flex; flex-wrap: wrap;
+      padding: 0 20px; background: #f0b400;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav > ul > li {
+      padding: 15px 20px;
+    }
+    nav a {
+      color: white; text-decoration: none; font-weight: bold;
+    }
+    nav ul li:hover {
+      background: #d9534f;
+    }
+
+    nav ul ul {
+      position: absolute; top: 100%; left: 0; display: none;
+      background: #f0b400; min-width: 250px; z-index: 999;
+      flex-direction: column;
+    }
+    nav ul ul li {
+      padding: 10px;
+    }
+    nav ul li:hover > ul {
+      display: block;
+    }
+
+    section {
+      max-width: 1000px; margin: auto; padding: 40px 20px;
+    }
+
+    footer {
+      text-align: center; padding: 20px; background: #eee; color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div>Hotline: 1900.561.562</div>
+    <div>
+      Vận tải hành khách công cộng | Xe hợp đồng du lịch | Bảo dưỡng sửa chữa | Đào tạo lái xe
+    </div>
+  </div>
+
+  <header>
+    <div class="logo-section">
+      <img src="images/logo.png" alt="Logo">
+      <div class="slogan">Phát triển thành công</div>
+    </div>
+    <div class="company-name">
+      <h1>CÔNG TY CỔ PHẦN VẬN TẢI HÒA BÌNH</h1>
+      <h2>TRUNG TÂM GIÁO DỤC NGHỀ NGHIỆP & SÁT HẠCH LÁI XE SỐ I CAO BẰNG</h2>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Giới thiệu</a>
+        <ul>
+          <li><a href="#">Giới thiệu chung</a></li>
+          <li><a href="#">Lịch sử hình thành</a></li>
+          <li><a href="#">Tầm nhìn - Sứ mệnh - Mục tiêu</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Sản phẩm dịch vụ</a>
+        <ul>
+          <li><a href="#">Vận tải hành khách công cộng</a></li>
+          <li><a href="#">Vận tải hợp đồng</a></li>
+          <li><a href="#">Bảo dưỡng sửa chữa</a></li>
+          <li><a href="#">Đào tạo lái xe</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Tin tức</a>
+        <ul>
+          <li><a href="#">Tin vận tải</a></li>
+          <li><a href="#">Tin đào tạo</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Đào tạo</a>
+        <ul>
+          <li><a href="#">Thông tin khóa học</a></li>
+          <li><a href="#">Form đăng ký học</a></li>
+          <li><a href="#">Tài liệu tham khảo</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Tuyển dụng</a></li>
+      <li><a href="#">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Trang chủ</h2>
+    <p>Chào mừng đến với website chính thức của Trung tâm Giáo dục nghề nghiệp và Sát hạch lái xe số I Cao Bằng.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Công ty Cổ phần Vận tải Hòa Bình. Đã đăng ký bản quyền.
+  </footer>
+</body>
+</html>
