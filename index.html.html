@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trung Tâm Đào Tạo Lái Xe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .top-bar {
+      background: #d9534f;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 30px;
+      font-size: 14px;
+    }
+    .top-bar .right span {
+      margin-left: 20px;
+    }
+    header {
+      background: white;
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+    }
+    .logo-section {
+      text-align: center;
+    }
+    .logo-section img {
+      max-height: 60px;
+    }
+    .logo-section .slogan {
+      font-size: 12px;
+      color: #666;
+    }
+    .company-name {
+      text-align: right;
+    }
+    .company-name h1 {
+      margin: 0;
+      font-size: 20px;
+      color: #d9534f;
+    }
+    .company-name h2 {
+      margin: 5px 0 0;
+      font-size: 16px;
+      color: #333;
+    }
+    nav {
+      background: #f0b400;
+      padding: 12px 30px;
+      display: flex;
+      gap: 30px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #d9534f;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="left">Hotline: 1900.561.562</div>
+    <div class="right">
+      <span>Vận tải hành khách công cộng</span>
+      <span>Xe hợp đồng du lịch</span>
+      <span>Bảo dưỡng sửa chữa xe cơ giới</span>
+      <span>Đào tạo và sát hạch lái xe</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="logo-section">
+      <img src="images/logo.png" alt="Logo" />
+      <div class="slogan">Phát triển thành công</div>
+    </div>
+    <div class="company-name">
+      <h1>CÔNG TY CỔ PHẦN VẬN TẢI HÒA BÌNH</h1>
+      <h2>TRUNG TÂM GIÁO DỤC NGHỀ NGHIỆP VÀ SÁT HẠCH LÁI XE SỐ I CAO BẰNG</h2>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#dichvu">Sản phẩm dịch vụ</a>
+    <a href="#tintuc">Tin tức - sự kiện</a>
+    <a href="#daotao">Đào tạo & sát hạch</a>
+    <a href="#tuyendung">Tuyển dụng</a>
+    <a href="#lienhe">Liên hệ</a>
+  </nav>
+
+  <section id="dichvu">
+    <h2>Sản phẩm & Dịch vụ</h2>
+    <p>Trung tâm cung cấp các loại hình dịch vụ:</p>
+    <ul>
+      <li>Vận tải hành khách công cộng bằng xe buýt</li>
+      <li>Vận tải hành khách bằng xe hợp đồng du lịch</li>
+      <li>Bảo dưỡng, sửa chữa xe cơ giới</li>
+      <li>Đào tạo và sát hạch lái xe cơ giới đường bộ</li>
+    </ul>
+  </section>
+
+  <section id="tintuc">
+    <h2>Tin tức - Sự kiện</h2>
+    <p>Cập nhật các thông báo mới nhất, sự kiện nội bộ và các thay đổi về chính sách đào tạo, tuyển sinh, vận tải.</p>
+  </section>
+
+  <section id="daotao">
+    <h2>Đào tạo & Sát hạch</h2>
+    <p>Thông tin về các khóa học đang mở:</p>
+    <ul>
+      <li>Khóa đào tạo lái xe mô tô hạng A1</li>
+      <li>Khóa đào tạo lái xe ô tô hạng B1, B2</li>
+      <li>Đăng ký học trực tuyến qua biểu mẫu</li>
+      <li>Tài liệu ôn tập và hướng dẫn sát hạch</li>
+    </ul>
+  </section>
+
+  <section id="tuyendung">
+    <h2>Tuyển dụng</h2>
+    <p>Chúng tôi luôn chào đón những ứng viên có năng lực và tâm huyết với các vị trí:</p>
+    <ul>
+      <li>Giáo viên đào tạo lý thuyết và thực hành</li>
+      <li>Nhân viên điều hành vận tải</li>
+      <li>Nhân viên kỹ thuật bảo dưỡng xe</li>
+    </ul>
+  </section>
+
+  <section id="lienhe">
+    <h2>Liên hệ</h2>
+    <p><strong>Địa chỉ:</strong> Tổ 11, phường Sông Bằng, thành phố Cao Bằng, tỉnh Cao Bằng</p>
+    <p><strong>Điện thoại:</strong> 1900.561.562</p>
+    <p><strong>Email:</strong> bushoabinh@gmail.com</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    &copy; 2025 Công ty Cổ phần Vận tải Hòa Bình. Đã đăng ký bản quyền.
+  </footer>
+</body>
+</html>
